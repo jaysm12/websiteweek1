@@ -1,0 +1,218 @@
+html, body {
+    margin: 0;
+    height: 100%
+}
+
+body {
+    font-family: 'Arimo', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    border-bottom: 5px solid #3F5866;
+    background-color: #BDD3DE;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+  }
+
+.myweb {
+    text-align: left;
+    font-size: 40px;
+    padding-top: 20px;
+    margin-left: 20px;
+    font-family: 'Arimo', sans-serif;
+    color: #2B3A42;
+}
+
+.created {
+    text-align: right;
+    font-size: 20px;
+    margin-right: 20px;
+    font-family: 'Arimo', sans-serif;
+    color: #2B3A42;
+}
+
+.home {
+    background-image: url(img/lKENFJ9.png);
+    height: 750px; 
+    background-attachment: fixed;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 8px solid rgb(34, 47, 54);
+}
+
+.iam {
+    position: relative;
+    text-align:center;
+    font-size: 60px;
+    color:white;
+    top: 200px;
+    border: 2px solid #3F5866;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgba(43, 58, 66, 0.699);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+#content {
+    display:flex;
+    flex-direction: column;
+}
+
+.box-game {
+    background-color: #BDD3DE;
+    height: 500;
+    margin-top: 0;
+    border-bottom: 8px solid rgb(34, 47, 54);
+}
+
+.box-game > h1 {
+    text-align: center;
+    font-size: 40px;
+}
+.box-anime {
+    background-color: #BDD3DE;
+    height: 500;
+    margin-top: 0;
+}
+
+.box-anime > h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.flexGame {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flexAnime {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flexGame > div {
+    height: 250px;
+    flex-basis: 450px ;
+    background-size: cover;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    border: 8px solid #3F5866;
+}
+
+.flexGame > div > p:hover{
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.flexAnime > div > p:hover{
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.flexAnime > div {
+    height: 250px;
+    flex-basis: 450px ;
+    background-size: cover;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    border: 8px solid #3F5866;
+}
+
+
+
+/*///////////////////// GAME //////////////////////////////////*/
+
+
+
+.bloodborne {
+    background-image: url(img/515634.jpg);
+}
+
+.vesperia {
+    background-image: url(img/538834-Tales-of-Vesperia-Review-Cover.jpg);
+    
+}
+
+.mhw {
+    background-image: url(img/MHW169C.jpg);
+    
+}
+
+.persona {
+    background-image: url(img/wp1918171.jpg);
+    margin-top: 20px;
+}
+
+
+.ds3 {
+    background-image: url(img/600925.jpg);
+    margin-top: 20px;
+}
+
+.gow {
+    background-image: url(img/843016.jpg);
+    margin-top: 20px;
+}
+
+
+/*/////////////////////////////// ANIME //////////////////////*/
+
+.fmab {
+    background-image: url(img/111290.jpg);
+    
+}
+
+.devilman {
+    background-image: url(img/903271.jpg);
+}
+
+.geass {
+    background-image: url(img/104908.jpg);
+}
+
+.onepiece {
+    background-image: url(img/wp2027202.jpg);
+    margin-top: 20px;
+}
+
+.ttgl {
+    background-image: url(img/S7mucJ8.jpg);
+    margin-top: 20px;
+}
+
+.mushishi {
+    background-image: url(img/mushishi-wallpapers-25996-5211240.jpg);
+    margin-top: 20px;
+}
+section > div > h1 {
+   color: #2B3A42;  
+}
+.content-name {
+    margin: auto;
+    /* text-align: center; */
+    line-height: 230px;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: #3EA9DE 5px 0 5px;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
